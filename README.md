@@ -23,3 +23,5 @@ https://tdgreer1203.github.io/RunBuddy/
 ## Contribution
 
 Made with ❤️ by Theo Greer
+
+### ©️2019 Run Buddy, Inc 
