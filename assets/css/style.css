@@ -29,7 +29,7 @@ body {
   }
   
   header a {
-      text-decoration: none;
+    text-decoration: none;
     color: #fce138;
   }
 
@@ -53,21 +53,35 @@ body {
     background-image: url("../img/hero-bg.jpeg");
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-text {
+    width: 500px;
+    text-align: right;
+    margin-right: 100px;
+  }
+
+  .hero-text h1 {
+    color:#fce138;
+    font-style: italic;
+    font-size: 50px;
+  }
+
+  .hero-text p {
+    color: white;
   }
 
   .hero-form {
     color: #024e76;
-    background-color: #fce138;
+    background-color:rgba(252, 225, 56, .6);
     width: 500px;
     padding: 20px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
     font-size: 14px;
     border: #024e76 3px solid;
-    bottom: 120px;
-    right: 140px;
+    height: 400px;
+    border-radius: 20px;
   }
 
   .hero-form h3 {
@@ -99,6 +113,7 @@ body {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 10px;
   }
 
   .intro {
@@ -214,7 +229,7 @@ body {
     margin-right: 50px;
   }
 
-  .contact-info h3 {
+  .contact h3 {
     color: #fce138;
     margin-bottom: 10px;
     font-size: 32px;
